@@ -1,4 +1,4 @@
 test('#isNull, #isNotNull', function(){
-    assert.pass(null, '');
-    assert.pass( 1, isNotNull);
+    assert.isNull(null, '');
+    assert.isnotNull(isNotNull, 1);
   });
