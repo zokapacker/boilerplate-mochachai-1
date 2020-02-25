@@ -8,7 +8,7 @@ suite('Unit Tests', function(){
   suite('Basic Assertions', function() {
     /** assert.fail() will always fail. Change it into something more useful... **/
   
-    /** 1 - Use assert.isNull() or assert.isNotNull() to make the tests pass.
+    /** 1 - Use assert.isNull() or assert.isNotNull() to make the tests pass. **/
     test('#isNull, #isNotNull', function(){
       assert.fail(null, 'this is an optional error description - e.g. null is null');
       assert.fail( 1, '1 is not null');
@@ -21,7 +21,7 @@ suite('Unit Tests', function(){
       assert.fail( 'hello', 'a string is not undefined' );
     });
   
-    /** 3 - Use assert.isOk() or assert.isNotOk() to make the tests pass. 
+    /** 3 - Use assert.isOk() or assert.isNotOk() to make the tests pass. **/
     // .isOk(truthy) and .isNotOk(falsey) will pass
     test('#isOk, #isNotOk', function(){
       assert.fail( null, 'null is falsey');
